@@ -20,7 +20,8 @@ import { connect } from "react-redux";
             </p>
             <button onClick={() => {this.props.themGioHang(this.props.item)}} style={{marginBottom:"20px"}} className="btn btn-success">Thêm vào giỏ hàng</button>
             <br></br>
-            <button onClick={() => {this.props.hienHon(this.props.item)}} className="btn btn-success">Hiển thị nào</button>
+            <button onClick={() => {this.props.hienHon(this.props.item)}} className="btn btn-success"></button>
+            
           </div>
         </div>
       </div>

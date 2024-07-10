@@ -12,6 +12,7 @@ export default class BaiTap extends Component {
         <List/>
         <Modalcard/>
         <Demoo/>
+     
       </div>
     )
   }

@@ -8,7 +8,7 @@ class Demoo extends Component {
     return (
       <div className='row'>
 
-        <div className='col4'><img alt='hihi' style={{width:'500px'}}  src={this.props.sanPhamDemo.hinhAnh}></img></div>
+        <div className='col4'><img alt='hihi' style={{width:'500px !important',height:'500px'}}  src={this.props.sanPhamDemo.hinhAnh}></img></div>
         <div className='col-8'>
         <ul className='product-details'>
           <li><strong>Tên:</strong> {sanPhamDemo.tenSP}</li>
